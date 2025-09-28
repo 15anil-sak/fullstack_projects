@@ -1,0 +1,108 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #005a9c;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #005a9c;
+    border-bottom: 2px solid #005a9c;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.alumni-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.alumni-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.alumni-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #e0e0e0;
+}
+
+.alumni-info {
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.alumni-info h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: #003d6b;
+}
+
+.alumni-info p {
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+}
+
+.alumni-info .label {
+    font-weight: 600;
+}
+
+.alumni-message {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #4dabf7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
