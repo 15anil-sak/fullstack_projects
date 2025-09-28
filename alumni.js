@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- IMPORTANT --- 
     // Replace this with your actual Firebase project configuration.
     const firebaseConfig = {
-    apiKey: "AIzaSyCHur3X75IG_diI3_ix2fY9XVzLo3XRpDg",
+    apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
     authDomain: "slvpct-madhukar-alumini.firebaseapp.com",
     projectId: "slvpct-madhukar-alumini",
     storageBucket: "slvpct-madhukar-alumini.firebasestorage.app",
